@@ -15,3 +15,17 @@ STM32 기반 임베디드 프로젝트에서 반복적으로 사용하는 기능
 
 ### utils
 - ring_buffer : 시리얼 데이터 버퍼
+
+```
+STM32_UTILS/  
+ ├─ time/  
+ │    ├─ Inc/  
+ │    ├─ Src/  
+ │    └─ Lib/      → libtime_utils.a 자동 생성  
+ ├─ filter/  
+ │    ├─ Inc/  
+ │    ├─ Src/  
+ │    └─ Lib/      → libfilter_utils.a 자동 생성  
+ └─ master/  
+      └─ Lib/      → 통합본
+```
